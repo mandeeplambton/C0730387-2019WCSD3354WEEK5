@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace week05
+namespace ConsoleApp1
 {
     class Program
     {
@@ -12,11 +12,11 @@ namespace week05
         {
             // var a = new testquestion();
             // a.playingwithforloops();
-            birthday_party peter = new birthday_party();
-            peter.setupPartyList();
-            peter.reverseprintPartyList();
-            Console.WriteLine(peter.printPartyList());
-            Console.WriteLine(peter.reverseprintPartyList());
+            birthday_party Mandep = new birthday_party();
+            Mandep.setupPartyList();
+            Mandep.reverseprintPartyList();
+            Console.WriteLine(Mandep.printPartyList());
+            Console.WriteLine(Mandep.reverseprintPartyList());
 
         }
     }
